@@ -1,0 +1,19 @@
+CREATE DATABASE BloodBankMS;
+USE BloodBankMS;
+CREATE TABLE Donor(Donor_id INT PRIMARY KEY, Donor_name VARCHAR(100), Father_name VARCHAR(100), Mother_name VARCHAR(100), 
+DOB VARCHAR(20), Mobile_no VARCHAR(10), Gender VARCHAR(10), Email VARCHAR(100), Blood_group VARCHAR(5), City VARCHAR(50), Address VARCHAR(300));
+DROP TABLE Donor;
+SELECT * FROM Donor;
+DESC Donor;
+
+CREATE TABLE Stock(Blood_Group VARCHAR(5) PRIMARY KEY, Units INT);
+DROP TABLE Stock;
+INSERT INTO Stock VALUES('A+','0');
+INSERT INTO Stock VALUES('A-','0');
+INSERT INTO Stock VALUES('B+','0');
+INSERT INTO Stock VALUES('B-','0');
+INSERT INTO Stock VALUES('AB+','0');
+INSERT INTO Stock VALUES('AB-','0');
+INSERT INTO Stock VALUES('O+','0');
+INSERT INTO Stock VALUES('O-','0');
+SELECT * FROM Stock;
