@@ -36,11 +36,11 @@ Quickly locate donor information using various criteria:
 * Logout: Return to the login page.
 * Exit Application: Close the application.
 
-# Technologies Used 
+## Technologies Used ⚒️
 * Frontend: NetBeans IDE (Java Swing)
 * Backend: MySQL Database
 
-**LIMITATIONS**
+## LIMITATIONS ❗
 As a mini-project, this system has a few limitations that could be addressed in a more advanced version:
 1) **Manual Stock Management:** The system requires users to manually increase or decrease blood stock. There is no automated process for updating stock levels based on donor additions or blood requests.
 2) **Hardcoded Login Credentials:** The username and password for login are currently hardcoded within the application, which is not suitable for production environments.
@@ -48,7 +48,7 @@ As a mini-project, this system has a few limitations that could be addressed in 
 4) **No Reporting:** The system does not include features for generating reports on donor statistics, stock levels, or transaction history.
 5) **Single-User Focus:** It's designed primarily for single-user operation and doesn't include features for multiple user roles or concurrent access management.
 
-**USAGE**
+# USAGE 🚨
 * Download the project folder.
 * Open the project directly in NetBeans IDE.
 * Set up the associated MySQL database by importing the provided SQL file (seprate it out from the file before opening it in netbeans).
