@@ -1,6 +1,6 @@
 This is a mini-project for a Blood Bank Management System developed using NetBeans IDE for the frontend and MySQL Database for the backend. It's designed to help blood bank centers manage donor information and blood stock efficiently. 
 
-**FEATURES**
+# FEATURES ✨
 The system provides a comprehensive set of functionalities for managing a blood bank:
 
 **1. User Authentication**
@@ -36,7 +36,7 @@ Quickly locate donor information using various criteria:
 * Logout: Return to the login page.
 * Exit Application: Close the application.
 
-**Technologies Used**
+# Technologies Used 
 * Frontend: NetBeans IDE (Java Swing)
 * Backend: MySQL Database
 
