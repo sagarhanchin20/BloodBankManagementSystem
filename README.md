@@ -52,5 +52,6 @@ As a mini-project, this system has a few limitations that could be addressed in 
 * Download the project folder.
 * Open the project directly in NetBeans IDE.
 * Set up the associated MySQL database by importing the provided SQL file (seprate it out from the file before opening it in netbeans).
+* Make sure to cahnge the hard coded credentials (usually found in code of login panel).
 * Make sure to change the MySQL username and password in the database connection code (usually found in files like ConnectionProvider.java or similar).
 * Run the project from NetBeans.
